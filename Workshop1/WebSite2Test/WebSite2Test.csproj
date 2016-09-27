@@ -195,6 +195,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProdCatController.cs" />
+    <Compile Include="Controllers\ProdController.cs" />
     <Compile Include="Controllers\TextController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -341,6 +342,11 @@
     <Content Include="Views\ProdCat\Details.cshtml" />
     <Content Include="Views\ProdCat\Edit.cshtml" />
     <Content Include="Views\ProdCat\Index.cshtml" />
+    <Content Include="Views\Prod\Create.cshtml" />
+    <Content Include="Views\Prod\Delete.cshtml" />
+    <Content Include="Views\Prod\Details.cshtml" />
+    <Content Include="Views\Prod\Edit.cshtml" />
+    <Content Include="Views\Prod\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
