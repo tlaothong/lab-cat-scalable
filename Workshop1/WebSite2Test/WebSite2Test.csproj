@@ -215,6 +215,13 @@
     <Compile Include="Lipsum9.aspx.designer.cs">
       <DependentUpon>Lipsum9.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LipsumC9.aspx.cs">
+      <DependentUpon>LipsumC9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LipsumC9.aspx.designer.cs">
+      <DependentUpon>LipsumC9.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Models\DemoEntityDataModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -235,6 +242,13 @@
     </Compile>
     <Compile Include="Models\ProductCategory.cs">
       <DependentUpon>DemoEntityDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCatePageC.aspx.cs">
+      <DependentUpon>ProductCatePageC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductCatePageC.aspx.designer.cs">
+      <DependentUpon>ProductCatePageC.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductCatPage.aspx.cs">
       <DependentUpon>ProductCatPage.aspx</DependentUpon>
@@ -268,6 +282,7 @@
     <Content Include="Global.asax" />
     <Content Include="Lipsum5.aspx" />
     <Content Include="Lipsum9.aspx" />
+    <Content Include="LipsumC9.aspx" />
     <Content Include="Models\DemoEntityDataModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DemoEntityDataModel.Context.cs</LastGenOutput>
@@ -278,6 +293,7 @@
       <DependentUpon>DemoEntityDataModel.edmx</DependentUpon>
       <LastGenOutput>DemoEntityDataModel.cs</LastGenOutput>
     </Content>
+    <Content Include="ProductCatePageC.aspx" />
     <Content Include="ProductCatPage.aspx" />
     <Content Include="ProductPage.aspx" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />

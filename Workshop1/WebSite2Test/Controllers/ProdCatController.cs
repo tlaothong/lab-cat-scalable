@@ -21,6 +21,18 @@ namespace WebSite2Test.Controllers
             return View(productCategories.ToList());
         }
 
+        public ActionResult Cache()
+        {
+            IEnumerable<ProductCategory> data = HttpContext.Cache["productCats"] as IEnumerable<ProductCategory>;
+            if (data == null)
+            {
+                data = db.ProductCategories.Include(p => p.ProductCategory2).ToList();
+                HttpContext.Cache["productCats"] = data;
+            }
+            return View(data);
+            return View(data);
+        }
+
         // GET: ProdCat/Details/5
         public ActionResult Details(int? id)
         {
