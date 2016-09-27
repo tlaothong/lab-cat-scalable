@@ -280,6 +280,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="HLipsum9.html" />
     <Content Include="Lipsum5.aspx" />
     <Content Include="Lipsum9.aspx" />
     <Content Include="LipsumC9.aspx" />
