@@ -59,7 +59,6 @@
         <th>
             @Html.DisplayNameFor(model => model.ProductCategory.Name)
         </th>
-        <th></th>
     </tr>
 
 @foreach (var item in Model) {
@@ -111,11 +110,6 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.ProductCategory.Name)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProductID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProductID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProductID })
         </td>
     </tr>
 }
