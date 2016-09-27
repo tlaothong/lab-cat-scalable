@@ -29,8 +29,7 @@ namespace WebSite2Test.Controllers
                 data = db.ProductCategories.Include(p => p.ProductCategory2).ToList();
                 HttpContext.Cache["productCats"] = data;
             }
-            return View(data);
-            return View(data);
+            return View("Index", data);
         }
 
         // GET: ProdCat/Details/5
