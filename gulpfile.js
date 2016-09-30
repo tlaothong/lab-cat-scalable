@@ -13,7 +13,7 @@ gulp.task('conjs', function() {
 });
 gulp.task('uglyjs', function (cb) {
   pump([
-        gulp.src('./dist/*.js'),
+        gulp.src('./dist/all.js'),
         uglify(),
         rename({suffix: '.min'}),
         gulp.dest('dist')
@@ -31,7 +31,7 @@ gulp.task('concss', function() {
 });
 
 gulp.task('mincss', function () {
-    gulp.src('./dist/*.css')
+    gulp.src('./dist/all.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('dist'));
